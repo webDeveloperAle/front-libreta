@@ -4,14 +4,14 @@
             <ion-item class="item-remove-animate item-avatar item-icon-right"
                       ng-repeat="alumno in alumnos"
                       type="item-text-wrap"
-                      href="#/tab/chats/{{ alumno.id }}">
+                      href="#/tab/alumno/{{ alumno.id }}">
 
                 <img ng-src="{{ alumno.img }}">
-                <h2>{{ alumno.nombre }}</h2>
-                <p>{{ alumno.curso }}</p>
+                <h2><strong>nombre: </strong>{{ alumno.nombre }}</h2>
+                <p><strong>curso: </strong>{{ alumno.curso }}</p>
                 <i class="icon ion-chevron-right icon-accessory"></i>
 
-                <ion-option-button class="button-assertive" ng-click="remove(chat)">
+                <ion-option-button class="button-assertive" ng-click="remove(alumno)">
                     Delete
                 </ion-option-button>
 
