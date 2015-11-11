@@ -1,0 +1,37 @@
+{
+  "alumnos 1": {
+      "id": 1,
+      "nombre": "Alejandro Sayegh",
+      "dni": "31286691",
+      "curso": "1ro A",
+      "img": "img/ben.png"
+    },
+  "alumnos 2": {
+      "id": 2,
+      "nombre": "Rolo Sobisch",
+      "dni": "123434334",
+      "curso": "1ro A",
+      "img": "img/adam.jpg"
+    },
+  "alumnos 3": {
+      "id": 3,
+      "nombre": "Pipo Pompon",
+      "dni": "101010101",
+      "curso": "4ro B",
+      "img": "img/max.png"
+    },
+  "alumnos 4": {
+      "id": 4,
+      "nombre": "Leo Sobisch",
+      "dni": "43565656",
+      "curso": "2ro C",
+      "img": "img/mike.png"
+    },
+  "alumnos 5": {
+    "id": 5,
+    "nombre": "Coco Williams",
+    "dni": "33445566",
+    "curso": "6ro A",
+    "img": "img/perry.png"
+  }
+}
